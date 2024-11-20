@@ -1,0 +1,24 @@
+{
+  "name": "express-authorizor",
+  "version": "1.0.19",
+  "description": "microserice authorize helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha"
+  },
+  "author": "ogm-crbt",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  },
+  "dependencies": {
+    "express-responser": "^1.0.1",
+    "lodash": "^4.17.4",
+    "logged-request-promise": "^1.0.5",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "custom-service-error": "^1.0.0"
+  }
+}
